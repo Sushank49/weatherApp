@@ -4,10 +4,15 @@
   padding: 0;
 }
 
-body {
+html {
   font-size: 10px;
+
+}
+
+body {
   background-color: #b3d7ff;
   height: 100vh;
+  font-family: 'Geologica', sans-serif;
 }
 
 li {

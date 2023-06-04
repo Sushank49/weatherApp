@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -13,19 +19,33 @@
       <ul class="nav-dad">
         <ul class="logo">
           <li class="logo-box">
-            <a href="#"
-              >Logo<img src="img/" alt="Logo Image" class="logo-img"
-            /></a>
+            <a href="#">Logo</a>
           </li>
         </ul>
-        <li class="nav-child">Home</li>
-        <li class="nav-child">Weather</li>
-        <li class="nav-child">About Us</li>
-        <li class="nav-child">Sign In</li>
-        <li class="nav-child">Sign Up</li>
+        <div class="nav-links">
+          <a href="#" class="nav-link">
+            <li class="nav-child">Home</li>
+          </a>
+          <a href="#" class="nav-link">
+            <li class="nav-child">Weather</li>
+          </a>
+          <a href="#" class="nav-link">
+            <li class="nav-child">About Us</li>
+          </a>
+          <a href="#" class="nav-link">
+            <li class="nav-child">Sign In</li>
+          </a>
+          <a href="#" class="nav-link">
+            <li class="nav-child">Sign Up</li>
+          </a>
+        </div>
       </ul>
     </nav>
-    <header class="header"></header>
+    <header class="header">
+      <h1 class="primary-heading"></h1>
+      <h2 class="secondary-heading"></h2>
+      <p class="primary-para"></p>
+    </header>
     <script src="js/app.js"></script>
   </body>
 </html>
